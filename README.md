@@ -30,3 +30,9 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+## Publicar en GitHub Pages
+
+El workflow de GitHub Actions compila la aplicación y publica `dist` en GitHub Pages cada vez que hay cambios en `main`.
+
+En el repositorio, abre **Settings > Pages** y selecciona **GitHub Actions** como origen del despliegue. Luego, al subir los cambios a `main`, puedes revisar el avance en la pestaña **Actions**. El sitio estará disponible en `https://vivibogota17.github.io/fundapp/`.
