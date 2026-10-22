@@ -315,7 +315,7 @@ function ActivitiesPage() {
         </section>
       ) : (
         <p className="activity-selection-hint">
-          Selecciona una actividad para consultar sus detalles.
+          Selecciona una actividad.
         </p>
       )}
     </section>
